@@ -29,3 +29,13 @@ Podem variar de acordo com a versão, de forma geral são estes.
 - Máximo de linhas por tabela é ilimitado
 - Máximo de colunas por tabela é 250 - 1600 que será explicado melhor posteriormente no curso
 - Máximo de índices por tablea é ilimitado 
+
+### Terminologias:
+Como o postgresql foi criado em ambiente universitário seus objetos são definidos em termos acadêmicos e baseados em álgebra relacional.
+Indús
+
+Termo Indústria -> Termo Postgres
+Tabela          -> Relação
+Linha		        -> Tupla 
+Coluna		      -> Atributo                             
+Bloco de datos  -> Página (quando o bloco está no disco)
