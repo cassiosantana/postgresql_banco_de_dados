@@ -18,3 +18,14 @@
 - Via redes TCP/IP padrão. Possuit protocolo de transmissão de novo libpq, que também é o nome da biblioteca cliente que o implementa.
 - Comunicação enviando comandos.
 - Linguagem combina declarações em conformidade com o padrão sql:2008 e comandos de manutenção específicos.
+
+### Limites do PostgreSQL:
+Podem variar de acordo com a versão, de forma geral são estes.
+
+- Tamanho do banco de dados é ilimitado
+- Tamanho máximo de tabela é 32 TB
+- Tamanho máximo de linha é 1,6 TB
+- Tamanho máximo de campos é 1 GB
+- Máximo de linhas por tabela é ilimitado
+- Máximo de colunas por tabela é 250 - 1600 que será explicado melhor posteriormente no curso
+- Máximo de índices por tablea é ilimitado 
