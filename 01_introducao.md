@@ -13,3 +13,8 @@
 - Permite operações de manutenção em modo online
 - Operações geoespaciais (PostGIS)
 - Possui linguagem procedural
+
+### Conectividade:
+- Via redes TCP/IP padrão. Possuit protocolo de transmissão de novo libpq, que também é o nome da biblioteca cliente que o implementa.
+- Comunicação enviando comandos.
+- Linguagem combina declarações em conformidade com o padrão sql:2008 e comandos de manutenção específicos.
