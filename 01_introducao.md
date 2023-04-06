@@ -39,3 +39,12 @@ Tabela          -> Relação
 Linha		        -> Tupla 
 Coluna		      -> Atributo                             
 Bloco de datos  -> Página (quando o bloco está no disco)
+
+### Quem utiliza:
+Apenas algumas empresas que utilizam.
+
+- Reddit
+- Sony Online Games
+- Skype
+- Instagram
+- Trip Advisor
