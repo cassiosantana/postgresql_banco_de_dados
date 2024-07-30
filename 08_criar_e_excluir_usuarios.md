@@ -76,5 +76,24 @@ local   all             cassio                                  md5
 - -U: Nome do usuário do banco de dados.
 - -d: Nome do banco de dados.
 
-**Erros Comuns e Dicas**
+**Verificando usuário e banco de dados**
+```bash
+    \conninfo
+```
+
+**Erros Comuns**
 - Banco de dados inexistente: Se você receber a mensagem "database "cassio" does not exist", verifique se o banco de dados foi criado corretamente ou especifique o nome correto do banco de dados.
+
+### Excluindo um Usuário
+**Pré-requisitos:**
+* Estar logado como um superusuário do PostgreSQL: `sudo -i -u postgres`
+
+```bash
+    dropuser <nome_do_usuario>
+```
+
+**Erros Comuns**
+- Excluir usuário proprietário de banco de dados: não é permitido excluir esse tipo de usuário.
+```text
+    dropuser: error: removal of role "cassio" failed: ERROR:  role "cassio" cannot be dropped because some objects depend on it
+```
